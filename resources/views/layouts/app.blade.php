@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>@yield('title', 'Sistema de Presença')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .form-error { color:#dc3545; font-size: .875rem; }
+    </style>
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body class="">
