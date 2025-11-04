@@ -21,7 +21,7 @@
                 </div>
             
                 @if(session('sucesso'))
-                <div class="flash">{{ session('sucesso') }}</div>
+                <div class="alert alert-success">{{ session('sucesso') }}</div>
                 @endif
                 <div class="card-body">
                     @yield('content')
